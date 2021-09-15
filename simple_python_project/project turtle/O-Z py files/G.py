@@ -1,0 +1,36 @@
+import turtle
+
+def G():
+    
+    tar = turtle.Turtle()
+    tar.shape("turtle")
+    window = turtle.Screen()
+    window.bgcolor("blue")
+    tar.width(5)
+    tar.color("black")
+
+    tar.speed(1)
+    tar.penup()
+    tar.fd(35)
+    tar.left(90)
+    tar.fd(100)
+    tar.left(90)
+    tar.pendown()
+    tar.fd(70)
+    tar.left(90)
+    tar.fd(100)
+    tar.left(90)
+    tar.fd(70)
+    tar.left(90)
+    tar.fd(40)
+    tar.left(90)
+    tar.fd(35)
+    tar.penup()
+    tar.left(90)
+    tar.fd(40)
+    tar.left(90)
+    tar.fd(45)
+    tar.hideturtle()
+    window.exitonclick()
+
+G()
